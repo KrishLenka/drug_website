@@ -4,9 +4,9 @@
   "description": "Drug discovery website with PERN stack",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
-    "migrate": "node database/migrate.js",
-    "seed": "node database/seed.js"
+    "dev": "nodemon ./backend/server.js",
+    "migrate": "node backend/database/migrate.js",
+    "seed": "node backend/database/seed.js"
   },
   "keywords": [],
   "author": "",
